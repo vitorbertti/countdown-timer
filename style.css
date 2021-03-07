@@ -19,6 +19,7 @@ body {
 
 h1 {
    font-size: 4rem;
+   font-weight: normal;
 }
 
 .countdown-container {
@@ -29,8 +30,13 @@ h1 {
    font-size: 6rem;
    line-height: 1;
    margin: 0 2rem;
+   font-weight: bold;
 }
 
 .countdown-item {
    text-align: center;
+}
+
+.countdown-item span {
+   font-size: 1.3rem;
 }
